@@ -1,0 +1,230 @@
+/* === CUSTOM PROPERTIES === */
+:root {
+    --blanco: #FFF;
+    --negro: #000;
+    --grisOscuro: #464646;
+    --grisClaro: #F5F5F5;
+    --azulClaro: #EAF2FD;
+    --azul: #2A7AE4;
+    --openSans: 'Open Sans', sans-serif;
+    --playfair: 'Playfair Display', serif;
+}
+
+/* === GLOBALES === */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+    font-size: 1.6rem;
+    background-color: var(--grisClaro) ;
+    color: var(--grisOscuro);
+    font-family: var(--openSans);
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.contenedor {
+    max-width: 144rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn {
+    max-width: 100%;
+    width: 20rem;
+    display: inline-block;
+    background-color: var(--azul);
+    color: var(--blanco);
+    border: 3px solid var(--azul);
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.btn--login {
+    background-color: var(--blanco);
+    color: var(--azul);
+}
+
+/* === HEADER === */
+.cabecera {
+    background-color: var(--blanco);
+    padding: 3.2rem 0;
+}
+
+.cabecera__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecera__izq {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cabecera__icon {
+    font-size: 5rem;
+    color: var(--azul);
+}
+
+.cabecera__brand {
+    font-family: var(--playfair);
+    font-size: 5rem;
+    margin: 0;
+}
+
+.cabecera__brand--azul {
+    color: var(--azul);
+}
+
+.cabecera__buscar {
+    padding: 1rem;
+}
+
+/* === HERO === */
+.hero {
+    background-color: lightskyblue;
+}
+
+.hero__container {
+    min-height: 352px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 3.2rem 0;
+}
+
+.hero__header {
+    font-family: var(--playfair);
+}
+
+.hero__header,
+.hero__texto {
+    margin: 1rem 0
+}
+
+/* === CONTENIDO PRINCIPAL === */
+.contenido-principal {
+    padding-top: 5rem;
+}
+
+/* === POPULARES, ALTA GAMA, GAMA DE ENTRADA === */
+.populares,
+.altaGama,
+.gamaE {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.populares__item,
+.altaGama__item,
+.gamaE__item {
+    height: auto;
+    width: 100%;
+}
+
+.populares__img,
+.altaGama__img,
+.gamaE__img {
+    object-fit: cover;
+    height: 20rem;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.populares__nombre,
+.altaGama__nombre,
+.gamaE__nombre {
+    font-size: 2.4rem;
+    font-family: var(--playfair);
+}
+
+/* === INFORMACIÓN === */
+.informacion {
+    background-color: var(--azulClaro);
+    margin-top: 5rem;
+    padding: 6.4rem 0;
+}
+
+.populares__precio,
+.altaGama__precio,
+.gamaE__precio {
+    font-size: 2.2rem;
+    font-weight: normal;
+}
+
+/* === INFORMACION === */
+.informacion__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.informacion__brand {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.informacion__enlaces {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.informacion__enlaces__link {
+    color: var(--negro);
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.informacion__heading {
+    margin: 0 0 1rem 0;
+}
+
+.informacion__form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.informacion__form__input {
+    display: inline-block;
+    background-color: var(--blanco);
+    border-radius: 0.4rem;
+    height: 5.6rem;
+    border: none;
+    color: var(--grisOscuro);
+    margin-bottom: 1rem;
+}
+
+/* === FOOTER === */
+.footer {
+    background-color: var(--blanco);
+}
+
+.footer__texto {
+    margin: 0;
+    padding: 2rem 0;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: var(--azul);
+    font-weight: bold;
+}

@@ -1,0 +1,3 @@
+# Avoid your project being littered with annoying files!
+.DS_Store
+.prettierignore
