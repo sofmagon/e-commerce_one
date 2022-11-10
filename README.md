@@ -2,7 +2,7 @@
 
 ### Realizado con HTML, CSS y JavaScript
 
-## 🚀 [Ir a la aplicación]()
+## 🚀 [Ir a la aplicación](https://sofmagon.github.io/e-commerce_one/)
 
 > Preview: Responsive Web Design
 
@@ -10,27 +10,19 @@
 
 ## Descripción del proyecto
 <p align="justify">
-¡Bienvenido al primer desafío del Challenge Fron End! En esta sprint, vamos a trabajar en la construcción de un Portafolio, para que puedas mostrar tus proyectos a posibles reclutadores.
+¡Bienvenido al segundo desafío del Challenge Fron End! En esta sprint, vamos a trabajar en la construcción de un E-Commerce.
 </p>
 
 #### Requisitos HTML y CSS
-1. Título de su sitio web
-2. Menú principal
-3. Buscador de artículos
-4. Botón de inicio de sesión
-5. Banner
-6. Galería de productos
-7. Formulario de contacto
-8. Pie de página
+1. Una página de home que contiene un botón de inicio de sesión y un motor de búsqueda de productos ofrecidos por la empresa.
+2. Un banner que contenga descuentos, promociones o información relevante al momento.
+3. Una galería con información del producto, como imagen, nombre del producto, precio y un enlace a la página de descripción del producto.
+4. Una página de producto que contiene la imagen, el nombre, la descripción y el precio.
+5. Un pie de página con un formulario de contacto y otras informaciónes relevantes.
+6. Un formulário de iniciar sesión para autenticar a los usuarios que quieran acceder al menú administrador.
+7. Menú de administrador para que puedan agregar, editar, buscar o eliminar productos de la tienda.
 
 #### Requisitos JavaScript
-1. Validar el campo nombre: no debe estar vacío y no debe exceder los 50 caracteres.
-2. Validar el e-mail: no debe estar vacío y Deber estar en formato e-mail conteniendo el caracter especial @ seguido de un dominio o proveedor seguido de un punto.
-3. Validar el asunto: no debe estar vacío y no debe exceder los 50 caracteres.
-4. Validar el mensaje: no debe estar vacío y no debe exceder los 300 caracteres.
-5. El botón enviar solo debe ser activado cuando todos los campos del formulario estén llenos.
-6. Todos los campos son obligatorios. Mostrar mensaje de error específico cuando alguna de estas condiciones no sea cumplida
-
 
 ## Tecnologías empleadas
 <div>
@@ -45,12 +37,10 @@
 - Flexbox
 - CSS Grid
 - Responsive Web Design
-- Validaciones de formulario con JavaScript
-- Expresiones Regulares con JavaScript
 
 ## Autor
 - Todos mis enlaces: [SOFMAGON](https://beacons.ai/sofmagon)
 
 ### **Este es un reto creado durante mi estadía en el programa [ONE](https://www.oracle.com/mx/education/oracle-next-education/) auspiciado por Oracle Latinoamérica y la plataforma [Alura](https://www.aluracursos.com)**
 
-![](https://i.ibb.co/qkSRHGP/one-alura.jpg) 
+![](https://i.ibb.co/qkSRHGP/one-alura.jpg)
