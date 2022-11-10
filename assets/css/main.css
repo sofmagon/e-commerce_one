@@ -108,6 +108,12 @@ img {
     padding: 5rem 0;
 }
 
+@media (max-width: 1080px) {
+    .hero {
+        background-position: left center;
+    }
+}
+
 .hero__container {
     min-height: 60rem;
     display: flex;
@@ -116,15 +122,33 @@ img {
     padding: 3.2rem 0;
 }
 
+@media (max-width: 1080px) {
+    .hero__container {
+        min-height: 55rem;
+    }
+}
+
 .hero__header {
     font-family: var(--playfair);
     font-size: 5rem;
     color: var(--blanco);
 }
 
+@media (max-width: 1080px) {
+    .hero__header {
+        font-size: 4rem;
+    }
+}
+
 .hero__texto {
     font-size: 3rem;
     color: var(--blanco);
+}
+
+@media (max-width: 1080px) {
+    .hero__texto {
+        font-size: 2.6rem;
+    }
 }
 
 .hero__header,
@@ -145,6 +169,14 @@ img {
     align-items: center;
     justify-content: space-between;
     font-size: 2.5rem;
+}
+
+@media (max-width: 1080px) {
+    .populares__heading,
+    .altaGama__heading,
+    .gamaE__heading {
+        font-size: 2rem;
+    }
 }
 
 .populares__link,
@@ -184,6 +216,22 @@ img {
     border-radius: 2rem;
 }
 
+@media (max-width: 1080px) {
+    .populares__img,
+    .altaGama__img,
+    .gamaE__img {
+        height: 10rem;
+    }
+}
+
+@media (max-width: 1080px) {
+    .populares__descripcion,
+    .altaGama__descripcion,
+    .gamaE__descripcion {
+        height: 13rem;
+    }
+}
+
 .populares__nombre,
 .altaGama__nombre,
 .gamaE__nombre {
@@ -207,11 +255,26 @@ img {
     padding: 6.4rem 0;
 }
 
+@media (max-width: 1080px) {
+    .informacion {
+        padding: 3.2rem 0;
+    }
+}
+
 /* === INFORMACION === */
 .informacion__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+}
+
+@media (max-width: 1080px) {
+    .informacion__container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 35rem;
+    }
 }
 
 .informacion__brand {
