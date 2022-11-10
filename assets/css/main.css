@@ -49,11 +49,14 @@ img {
     text-decoration: none;
     text-align: center;
     font-size: 1.8rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
 }
 
 .btn--login {
     background-color: var(--blanco);
     color: var(--azul);
+    margin: 0;
 }
 
 /* === HEADER === */
@@ -81,7 +84,7 @@ img {
 
 .cabecera__brand {
     font-family: var(--playfair);
-    font-size: 5rem;
+    font-size: 3.5rem;
     margin: 0;
 }
 
@@ -91,15 +94,22 @@ img {
 
 .cabecera__buscar {
     padding: 1rem;
+    border-radius: 20px;
+    background-color: var(--grisClaro);
+    border: none;
 }
 
 /* === HERO === */
 .hero {
-    background-color: lightskyblue;
+    background-image: linear-gradient(rgb(0 0 0 / 0.6), rgb(0 0 0 / 0.6)), url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    padding: 5rem 0;
 }
 
 .hero__container {
-    min-height: 352px;
+    min-height: 60rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -108,6 +118,13 @@ img {
 
 .hero__header {
     font-family: var(--playfair);
+    font-size: 5rem;
+    color: var(--blanco);
+}
+
+.hero__texto {
+    font-size: 3rem;
+    color: var(--blanco);
 }
 
 .hero__header,
@@ -121,6 +138,28 @@ img {
 }
 
 /* === POPULARES, ALTA GAMA, GAMA DE ENTRADA === */
+.populares__heading,
+.altaGama__heading,
+.gamaE__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2.5rem;
+}
+
+.populares__link,
+.altaGama__link,
+.gamaE__link {
+    text-decoration: none;
+    color: var(--negro);
+}
+
+.populares__link:hover,
+.altaGama__link:hover,
+.gamaE__link:hover {
+    border-bottom: 3px solid var(--azul);
+}
+
 .populares,
 .altaGama,
 .gamaE {
@@ -148,8 +187,17 @@ img {
 .populares__nombre,
 .altaGama__nombre,
 .gamaE__nombre {
+    margin: 1.2rem 0;
     font-size: 2.4rem;
     font-family: var(--playfair);
+}
+
+.populares__precio,
+.altaGama__precio,
+.gamaE__precio {
+    margin: 1.2rem 0;
+    font-size: 2rem;
+    font-weight: normal;
 }
 
 /* === INFORMACIÓN === */
@@ -157,13 +205,6 @@ img {
     background-color: var(--azulClaro);
     margin-top: 5rem;
     padding: 6.4rem 0;
-}
-
-.populares__precio,
-.altaGama__precio,
-.gamaE__precio {
-    font-size: 2.2rem;
-    font-weight: normal;
 }
 
 /* === INFORMACION === */
