@@ -1,0 +1,27 @@
+.inicio-sesion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 5rem 0;
+}
+
+.inicio-sesion__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    width: 50%;
+    gap: 2rem;
+}
+
+.inicio-sesion__input {
+    display: inline-block;
+    background-color: var(--blanco);
+    border-radius: 0.4rem;
+    height: 5.6rem;
+    border: none;
+    color: var(--grisOscuro);
+    margin-bottom: 1rem;
+    width: 100%;
+}
