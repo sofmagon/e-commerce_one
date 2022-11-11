@@ -75,6 +75,10 @@ img {
     }
 }
 
+.btn--entrar {
+    width: 100%;
+}
+
 /* === HEADER === */
 .cabecera {
     background-color: var(--blanco);
@@ -133,7 +137,7 @@ img {
     border-radius: 20px;
     background-color: var(--grisClaro);
     border: none;
-    width: 90%;
+    width: 50%;
     text-align: center;
 }
 
