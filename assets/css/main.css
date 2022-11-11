@@ -75,10 +75,6 @@ img {
     }
 }
 
-.btn--entrar {
-    width: 100%;
-}
-
 /* === HEADER === */
 .cabecera {
     background-color: var(--blanco);
