@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <title>.: AluraCars :.</title>
+    <!-- Responsividad -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Natural -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Ing. TICS. Sofía Martinelli">
+    <meta name="copyright" content="&copy; SOFMAGON 2022. Todos los derechos reservados.">
+    <meta name="description" content="E-Commerce. Reto del programa Oracle Next Education + Alura Latam.">
+    <!-- Humans TXT -->
+    <link rel="author" href="humans.txt">
+    <!-- Normalize CSS -->
+    <link rel="preload" href="./assets/css/normalize.css" as="style">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Estilos locales de CSS -->
+    <link rel="preload" href="./assets/css/main.css" as="style">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="preload" href="./assets/css/iniciar_sesion.css" as="style">
+    <link rel="stylesheet" href="./assets/css/agregar_nuevo.css">
+</head>
+<body>
+    <!-- Menú -->
+    <header class="cabecera">
+        <div class="cabecera__container contenedor">
+            <div class="cabecera__menu">
+                <div class="cabecera__logo">
+                    <i class="bi bi-car-front-fill cabecera__icon"></i>
+                    <h3 class="cabecera__brand"><span class="cabecera__brand cabecera__brand--azul">Alura</span>Cars</h3>
+                </div>
+                <input type="text" class="cabecera__buscar" placeholder="Realizar búsqueda 🔍">
+            </div>
+        </div>
+    </header>
+
+    <!-- Menú -->
+    <main class="agregar">
+        <h1 class="agregar__heading">Agregar producto nuevo</h1>
+        <form class="agregar__form">
+            <input type="text" class="agregar__input" placeholder="URL de la imagen">
+            <input type="text" class="agregar__input" placeholder="Categoría: Populares - Alta Gama - Gama de Entrada">
+            <input type="text" class="agregar__input" placeholder="Nombre del producto">
+            <input type="text" class="agregar__input" placeholder="Precio en MXN">
+            <a type="submit" href="./admin.html" class="btn btn--entrar">Agregar producto</a>
+        </form>
+    </main>
+
+    <section class="informacion">
+        <div class="informacion__container contenedor">
+            <div class="informacion__brand">
+                <i class="bi bi-car-front-fill cabecera__icon"></i>
+                <h3 class="cabecera__brand"><span class="cabecera__brand cabecera__brand--azul">Alura</span>Cars</h3>
+            </div>
+            <nav class="informacion__enlaces">
+                <a href="#" class="informacion__enlaces__link">Quienes somos</a>
+                <a href="#" class="informacion__enlaces__link">Política de privacidad</a>
+                <a href="#" class="informacion__enlaces__link">Programa de fidelidad</a>
+                <a href="#" class="informacion__enlaces__link">Nuestras tiendas</a>
+                <a href="#" class="informacion__enlaces__link">Quiero ser franquiciado</a>
+                <a href="#" class="informacion__enlaces__link">Anúnciese aquí</a>
+            </nav>
+            <div class="informacion__contacto">
+                <form class="informacion__form">
+                    <legend class="informacion__heading">Hable con nosotros</legend>
+                    <input class="informacion__form__input" type="text" placeholder="Nombre">
+                    <input class="informacion__form__input" type="text" placeholder="Escribe tu mensaje">
+                </form>
+                <button class="btn">Enviar mensaje</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto">&copy; Todos los Derechos Reservados | <a class="footer__link" href="https://beacons.ai/sofmagon" target="_blank" rel="noopen noreferrer">SOFMAGON</a></p>
+    </footer>
+</body>
+</html>
