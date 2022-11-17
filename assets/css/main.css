@@ -113,9 +113,11 @@ img {
 }
 
 .cabecera__brand {
+    color: var(--negro);
     font-family: var(--playfair);
     font-size: 3.5rem;
     margin: 0;
+    text-decoration: none;
 }
 
 @media (max-width: 576px) {
