@@ -1,0 +1,43 @@
+.agregar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 5rem 0;
+}
+
+.agregar__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    width: 50%;
+    gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    .agregar__form {
+        width: 70%;
+    }
+}
+
+@media (max-width: 576px) {
+    .agregar__form {
+        width: 85%;
+    }
+}
+
+.agregar__input {
+    display: inline-block;
+    background-color: var(--blanco);
+    border-radius: 0.4rem;
+    height: 5.6rem;
+    border: none;
+    color: var(--grisOscuro);
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.btn--entrar {
+    width: 100%;
+}
