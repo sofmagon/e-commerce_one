@@ -4,13 +4,13 @@
 
 ## 🚀 [Ir a la aplicación](https://sofmagon.github.io/e-commerce_one/)
 
-> Preview: Responsive Web Design
+> Preview:
 
 ![mockup](./Demo.gif)
 
 ## Descripción del proyecto
 <p align="justify">
-¡Bienvenido al segundo desafío del Challenge Fron End! En esta sprint, vamos a trabajar en la construcción de un E-Commerce.
+¡Bienvenido al segundo desafío del Challenge Front End! En esta sprint, vamos a trabajar en la construcción de un E-Commerce.
 </p>
 
 #### Requisitos HTML y CSS
