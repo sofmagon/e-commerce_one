@@ -6,7 +6,7 @@
 
 > Preview: Responsive Web Design
 
-![mockup]()
+![mockup](./Demo.gif)
 
 ## Descripción del proyecto
 <p align="justify">
