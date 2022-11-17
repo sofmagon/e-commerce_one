@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="preload" href="./assets/css/iniciar_sesion.css" as="style">
     <link rel="stylesheet" href="./assets/css/iniciar_sesion.css">
+    <link rel="preload" href="./assets/css/admin.css" as="style">
+    <link rel="stylesheet" href="./assets/css/admin.css">
 </head>
 <body>
     <!-- Menú -->
@@ -41,9 +43,249 @@
         </div>
     </header>
 
-    <!-- Menú -->
-    <main class="inicio-sesion">
-        <h2 class="admin__heading">Inventario completo</h2>
+    <!-- Zona de Administración -->
+    <main class="contenedor admin__container">
+        <div class="admin__heading">
+            <h2>Inventario Completo</h2>
+            <a class="btn btn--inventario" href="./agregar_nuevo.html"><i class="bi bi-plus-circle"></i> Agregar nuevo</i></a>
+        </div>
+
+        <!-- Listado completo -->
+        <section class="admin">
+            <div class="admin__item">
+                <img src="./assets/images/populares-1.png" alt="Popular 1" class="admin__img">
+                <div class="admin__descripcion">
+                    <h3 class="admin__nombre">Chevrolet Aveo</h3>
+                    <p class="admin__precio">$270,000</p>
+                    <p class="admin__sku">SKU #010101</p>
+                </div>
+                <div class="admin__botones">
+                    <button class="btn__editar"><i class="bi bi-pencil"></i></button>
+                    <button class="btn__eliminar"><i class="bi bi-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="admin__item">
+                <img src="./assets/images/populares-2.jpg" alt="Popular 2" class="admin__img">
+                <div class="admin__descripcion">
+                    <h3 class="admin__nombre">Morris Garages MG5</h3>
+                    <p class="admin__precio">$300,000</p>
+                    <p class="admin__sku">SKU #020202</p>
+                </div>
+                <div class="admin__botones">
+                    <button class="btn__editar"><i class="bi bi-pencil"></i></button>
+                    <button class="btn__eliminar"><i class="bi bi-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="admin__item">
+                <img src="./assets/images/populares-3.png" alt="Popular 3" class="admin__img">
+                <div class="admin__descripcion">
+                    <h3 class="admin__nombre">Nissan Versa</h3>
+                    <p class="admin__precio">$310,000</p>
+                    <p class="admin__sku">SKU #030303</p>
+                </div>
+                <div class="admin__botones">
+                    <button class="btn__editar"><i class="bi bi-pencil"></i></button>
+                    <button class="btn__eliminar"><i class="bi bi-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="admin__item">
+                <img src="./assets/images/populares-4.jpg" alt="Popular 4" class="admin__img">
+                <div class="admin__descripcion">
+                    <h3 class="admin__nombre">Kia Rio Sedán</h3>
+                    <p class="admin__precio">$ 290,000</p>
+                    <p class="admin__sku">SKU #040404</p>
+                </div>
+                <div class="admin__botones">
+                    <button class="btn__editar"><i class="bi bi-pencil"></i></button>
+                    <button class="btn__eliminar"><i class="bi bi-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="admin__item">
+                <img src="./assets/images/populares-5.jpg" alt="Popular 5" class="admin__img">
+                <div class="admin__descripcion">
+                    <h3 class="admin__nombre">Suzuki Switft</h3>
+                    <p class="admin__precio">$ 295,000</p>
+                    <p class="admin__sku">SKU #050505</p>
+                </div>
+                <div class="admin__botones">
+                    <button class="btn__editar"><i class="bi bi-pencil"></i></button>
+                    <button class="btn__eliminar"><i class="bi bi-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="admin__item">
+                <img src="./assets/images/populares-6.jpg" alt="Popular 6" class="admin__img">
+                <div class="admin__descripcion">
+                    <h3 class="admin__nombre">Volkswagen Vento</h3>
+                    <p class="admin__precio">$ 270,000</p>
+                    <p class="admin__sku">SKU #060606</p>
+                </div>
+                <div class="admin__botones">
+                    <button class="btn__editar"><i class="bi bi-pencil"></i></button>
+                    <button class="btn__eliminar"><i class="bi bi-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="admin__item">
+                <img src="./assets/images/altaGama-1.webp" alt="Alta Gama 1" class="admin__img">
+                <div class="admin__descripcion">
+                    <h3 class="admin__nombre">Chevrolet Corvette Z51</h3>
+                    <p class="admin__precio">$ 3.2 MDP</p>
+                    <p class="admin__sku">SKU #070707</p>
+                </div>
+                <div class="admin__botones">
+                    <button class="btn__editar"><i class="bi bi-pencil"></i></button>
+                    <button class="btn__eliminar"><i class="bi bi-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="admin__item">
+                <img src="./assets/images/altaGama-2.png" alt="Alta Gama 2" class="admin__img">
+                <div class="admin__descripcion">
+                    <h3 class="admin__nombre">Cadillac Escalade</h3>
+                    <p class="admin__precio">$ 2.5 MDP</p>
+                    <p class="admin__sku">SKU #080808</p>
+                </div>
+                <div class="admin__botones">
+                    <button class="btn__editar"><i class="bi bi-pencil"></i></button>
+                    <button class="btn__eliminar"><i class="bi bi-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="admin__item">
+                <img src="./assets/images/altaGama-3.jpeg" alt="Alta Gama 3" class="admin__img">
+                <div class="admin__descripcion">
+                    <h3 class="admin__nombre">Lincoln Navigator</h3>
+                    <p class="admin__precio">$ 2.4 MDP</p>
+                    <p class="admin__sku">SKU #090909</p>
+                </div>
+                <div class="admin__botones">
+                    <button class="btn__editar"><i class="bi bi-pencil"></i></button>
+                    <button class="btn__eliminar"><i class="bi bi-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="admin__item">
+                <img src="./assets/images/altaGama-4.jpg" alt="Alta Gama 4" class="admin__img">
+                <div class="admin__descripcion">
+                    <h3 class="admin__nombre">Mercedes-Benz Clase G</h3>
+                    <p class="admin__precio">$ 3.8 MDP</p>
+                    <p class="admin__sku">SKU #121212</p>
+                </div>
+                <div class="admin__botones">
+                    <button class="btn__editar"><i class="bi bi-pencil"></i></button>
+                    <button class="btn__eliminar"><i class="bi bi-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="admin__item">
+                <img src="./assets/images/altaGama-5.webp" alt="Alta Gama 5" class="admin__img">
+                <div class="admin__descripcion">
+                    <h3 class="admin__nombre">Jaguar F-Type R</h3>
+                    <p class="admin__precio">$ 2.6 MDP</p>
+                    <p class="admin__sku">SKU #343434</p>
+                </div>
+                <div class="admin__botones">
+                    <button class="btn__editar"><i class="bi bi-pencil"></i></button>
+                    <button class="btn__eliminar"><i class="bi bi-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="admin__item">
+                <img src="./assets/images/altaGama-6.jpg" alt="Alta Gama 6" class="admin__img">
+                <div class="admin__descripcion">
+                    <h3 class="admin__nombre">BMW i8</h3>
+                    <p class="admin__precio">$ 3.3 MDP</p>
+                    <p class="admin__sku">SKU #565656</p>
+                </div>
+                <div class="admin__botones">
+                    <button class="btn__editar"><i class="bi bi-pencil"></i></button>
+                    <button class="btn__eliminar"><i class="bi bi-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="admin__item">
+                <img src="./assets/images/gamaE-1.png" alt="Gama de Entrada 1" class="admin__img">
+                <div class="admin__descripcion">
+                    <h3 class="admin__nombre">Nissan March</h3>
+                    <p class="admin__precio">$245,000</p>
+                    <p class="admin__sku">SKU #787878</p>
+                </div>
+                <div class="admin__botones">
+                    <button class="btn__editar"><i class="bi bi-pencil"></i></button>
+                    <button class="btn__eliminar"><i class="bi bi-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="admin__item">
+                <img src="./assets/images/gamaE-2.png" alt="Gama de Entrada 2" class="admin__img">
+                <div class="admin__descripcion">
+                    <h3 class="admin__nombre">Chevrolet Spark</h3>
+                    <p class="admin__precio">$290,000</p>
+                    <p class="admin__sku">SKU #909090</p>
+                </div>
+                <div class="admin__botones">
+                    <button class="btn__editar"><i class="bi bi-pencil"></i></button>
+                    <button class="btn__eliminar"><i class="bi bi-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="admin__item">
+                <img src="./assets/images/gamaE-3.jpeg" alt="Gama de Entrada 3" class="admin__img">
+                <div class="admin__descripcion">
+                    <h3 class="admin__nombre">Hyundai Grand i10 HB</h3>
+                    <p class="admin__precio">$210,000</p>
+                    <p class="admin__sku">SKU #123000</p>
+                </div>
+                <div class="admin__botones">
+                    <button class="btn__editar"><i class="bi bi-pencil"></i></button>
+                    <button class="btn__eliminar"><i class="bi bi-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="admin__item">
+                <img src="./assets/images/gamaE-4.jpeg" alt="Gama de Entrada 4" class="admin__img">
+                <div class="admin__descripcion">
+                    <h3 class="admin__nombre">Dodge Attitude</h3>
+                    <p class="admin__precio">$ 250,000</p>
+                    <p class="admin__sku">SKU #456000</p>
+                </div>
+                <div class="admin__botones">
+                    <button class="btn__editar"><i class="bi bi-pencil"></i></button>
+                    <button class="btn__eliminar"><i class="bi bi-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="admin__item">
+                <img src="./assets/images/gamaE-5.png" alt="Gama de Entrada 5" class="admin__img">
+                <div class="admin__descripcion">
+                    <h3 class="admin__nombre">Renault Kwid</h3>
+                    <p class="admin__precio">$ 216,000</p>
+                    <p class="admin__sku">SKU #789000</p>
+                </div>
+                <div class="admin__botones">
+                    <button class="btn__editar"><i class="bi bi-pencil"></i></button>
+                    <button class="btn__eliminar"><i class="bi bi-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="admin__item">
+                <img src="./assets/images/gamaE-6.jpeg" alt="Gama de Entrada 6" class="admin__img">
+                <div class="admin__descripcion">
+                    <h3 class="admin__nombre">Fiat Mobi</h3>
+                    <p class="admin__precio">$ 237,000</p>
+                    <p class="admin__sku">SKU #246800</p>
+                </div>
+                <div class="admin__botones">
+                    <button class="btn__editar"><i class="bi bi-pencil"></i></button>
+                    <button class="btn__eliminar"><i class="bi bi-trash"></i></button>
+                </div>
+            </div>
+        </section>
     </main>
 
     <section class="informacion">
