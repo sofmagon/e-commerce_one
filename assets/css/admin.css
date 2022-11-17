@@ -1,0 +1,114 @@
+/* === CUSTOM PROPERTIES === */
+:root {
+    --blanco: #FFF;
+    --negro: #000;
+    --btnEliminar: #777;
+    --azul: #2A7AE4;
+    --btnEditar: #88BAFF;
+}
+
+.admin__container {
+    padding: 5rem 0;
+}
+
+.admin__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 576px) {
+    .admin__heading {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .btn--inventario {
+        width: 70%;
+    }
+}
+
+.admin {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+}
+
+@media (max-width: 1024px) {
+    .admin {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .admin {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+}
+
+.admin__item {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.admin__img {
+    object-fit: cover;
+    height: 10rem;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+@media (max-width: 576px) {
+    .admin__img {
+        height: auto;
+    }
+}
+
+.admin__descripcion {
+    height: 13rem;
+}
+
+.admin__nombre,
+.admin__precio,
+.admin__sku {
+    margin: 1.2rem 0;
+    font-size: 1.8rem;
+}
+
+.admin__botones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn__editar,
+.btn__eliminar {
+    width: 50%;
+    font-size: 2rem;
+    border: none;
+    color: var(--blanco);
+    padding: 1rem 0;
+    cursor: pointer;
+}
+
+.btn__editar {
+    background-color: var(--azul);
+    border-radius: 1rem 0 0 1rem;
+}
+
+.btn__editar:hover {
+    background-color: var(--btnEditar);
+    color: var(--negro);
+}
+
+.btn__eliminar {
+    background-color: var(--negro);
+    border-radius: 0 1rem 1rem 0;
+}
+
+.btn__eliminar:hover {
+    background-color: var(--btnEliminar);
+    color: var(--blanco);
+}
