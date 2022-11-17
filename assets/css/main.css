@@ -330,7 +330,6 @@ img {
     }
 }
 
-/* === INFORMACION === */
 .informacion__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -353,12 +352,15 @@ img {
     }
 }
 
+/* Sección 1 */
 .informacion__brand {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
 }
 
+/* Sección 2 */
 .informacion__enlaces {
     display: flex;
     flex-direction: column;
@@ -371,10 +373,27 @@ img {
     font-size: 1.8rem;
 }
 
+@media (max-width: 576px) {
+    .informacion__enlaces__link {
+        text-align: center;
+    }
+}
+
 .informacion__heading {
     margin: 0 0 1rem 0;
     font-weight: bold;
     font-size: 2rem;
+}
+
+@media (max-width: 576px) {
+    .informacion__heading {
+        text-align: center;
+    }
+}
+
+/* Sección 3 */
+.informacion__contacto {
+    margin-top: 1rem;
 }
 
 .informacion__form {
@@ -391,6 +410,12 @@ img {
     border: none;
     color: var(--grisOscuro);
     margin-bottom: 1rem;
+}
+
+@media (max-width: 576px) {
+    .informacion__form__input {
+        text-align: center;
+    }
 }
 
 /* === FOOTER === */
