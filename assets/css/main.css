@@ -300,14 +300,6 @@ img {
     }
 }
 
-/* @media (max-width: 1080px) {
-    .populares__descripcion,
-    .altaGama__descripcion,
-    .gamaE__descripcion {
-        height: 13rem;
-    }
-} */
-
 .populares__nombre,
 .altaGama__nombre,
 .gamaE__nombre {
@@ -321,7 +313,6 @@ img {
 .gamaE__precio {
     margin: 1.2rem 0;
     font-size: 2rem;
-    font-weight: normal;
 }
 
 /* === INFORMACIÓN === */
