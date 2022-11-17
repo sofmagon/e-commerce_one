@@ -1,6 +1,6 @@
 # E-Commerce
 
-### Realizado con HTML, CSS y JavaScript
+### Realizado con HTML y CSS
 
 ## 🚀 [Ir a la aplicación](https://sofmagon.github.io/e-commerce_one/)
 
@@ -20,15 +20,12 @@
 4. Una página de producto que contiene la imagen, el nombre, la descripción y el precio.
 5. Un pie de página con un formulario de contacto y otras informaciónes relevantes.
 6. Un formulário de iniciar sesión para autenticar a los usuarios que quieran acceder al menú administrador.
-7. Menú de administrador para que puedan agregar, editar, buscar o eliminar productos de la tienda.
-
-#### Requisitos JavaScript
+7. Zona de administración para que puedan agregar, editar, buscar o eliminar productos de la tienda.
 
 ## Tecnologías empleadas
 <div>
 	<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 	<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-	<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div>
 
 ## Construido con
