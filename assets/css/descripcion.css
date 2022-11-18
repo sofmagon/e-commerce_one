@@ -1,0 +1,92 @@
+/* === CUSTOM PROPERTIES === */
+:root {
+    --blanco: #FFF;
+    --negro: #000;
+    --grisOscuro: #464646;
+    --grisClaro: #F5F5F5;
+    --azulClaro: #EAF2FD;
+    --azul: #2A7AE4;
+    --openSans: 'Open Sans', sans-serif;
+    --playfair: 'Playfair Display', serif;
+}
+
+.descripcion {
+    background-color: var(--blanco);
+    margin: 5rem 0;
+    height: auto;
+    padding: 5rem;
+}
+
+.descripcion__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.descripcion__title,
+.descripcion__precio,
+.descripcion__texto {
+    margin: 0 0 2rem 0;
+}
+
+.descripcion__title {
+    font-size: 5rem;
+}
+
+.descripcion__precio {
+    font-size: 3rem;
+}
+
+.similares__title {
+    margin: 0;
+}
+
+
+.similares__grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+}
+
+@media (max-width: 1024px) {
+    .similares__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .similares__grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+}
+
+.similares__item {
+    height: 100%;
+    width: 100%;
+}
+
+.similares__img {
+    object-fit: cover;
+    height: 20rem;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+@media (max-width: 576px) {
+    .similares__img {
+        height: auto;
+    }
+}
+
+.similares__nombre {
+    margin: 1.2rem 0;
+    font-size: 2.4rem;
+    font-family: var(--playfair);
+}
+
+.similares__precio {
+    margin: 1.2rem 0;
+    font-size: 2rem;
+}
