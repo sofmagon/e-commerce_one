@@ -6,7 +6,7 @@
 
 > Preview:
 
-![mockup](./Demo.gif)
+![mockup](https://i.ibb.co/6NwPptj/Show-Case.jpg)
 
 ## Descripción del proyecto
 <p align="justify">
