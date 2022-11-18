@@ -1,13 +1,5 @@
-/* === CUSTOM PROPERTIES === */
 :root {
     --blanco: #FFF;
-    --negro: #000;
-    --grisOscuro: #464646;
-    --grisClaro: #F5F5F5;
-    --azulClaro: #EAF2FD;
-    --azul: #2A7AE4;
-    --openSans: 'Open Sans', sans-serif;
-    --playfair: 'Playfair Display', serif;
 }
 
 .descripcion {
@@ -23,6 +15,12 @@
     align-items: center;
 }
 
+@media (max-width: 1024px) {
+    .descripcion__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 .descripcion__title,
 .descripcion__precio,
 .descripcion__texto {
@@ -33,14 +31,26 @@
     font-size: 5rem;
 }
 
+@media (max-width: 576px) {
+    .descripcion__title {
+        font-size: 3.4rem;
+    }
+}
+
 .descripcion__precio {
     font-size: 3rem;
 }
 
-.similares__title {
-    margin: 0;
+@media (max-width: 576px) {
+    .descripcion__precio {
+        font-size: 2.4rem;
+    }
 }
 
+/* Listado Similares */
+.similares__title {
+    margin: 0 0 2rem 0;
+}
 
 .similares__grid {
     display: grid;
@@ -50,7 +60,7 @@
 
 @media (max-width: 1024px) {
     .similares__grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
     }
 }
@@ -65,11 +75,12 @@
 .similares__item {
     height: 100%;
     width: 100%;
+    margin-bottom: 5rem;
 }
 
 .similares__img {
     object-fit: cover;
-    height: 20rem;
+    height: 10rem;
     width: 100%;
     border-radius: 2rem;
 }
@@ -80,10 +91,13 @@
     }
 }
 
+.similares__descripcion {
+    height: 13rem;
+}
+
 .similares__nombre {
     margin: 1.2rem 0;
     font-size: 2.4rem;
-    font-family: var(--playfair);
 }
 
 .similares__precio {
